@@ -1,0 +1,8 @@
+# Find the Sum of First N Natural Numbers using recursion
+def get_sum(n):
+    if n == 0:
+        return 0
+    return n + get_sum(n - 1)
+n = 5
+sum_result = get_sum(n)
+print(sum_result)
